@@ -149,3 +149,22 @@ img {
 .boton--secundario {
     background-color: var(--primario);
 }
+.cursos {
+    list-style: none;
+}
+.widget-cursos {
+    border-bottom: 1px solid var(--claro);
+    margin-bottom: 2rem
+}
+.widget-cursos:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+.widget-cursos__label {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: var(--fuenteHeading);
+}
+.widget-cursos__info {
+    font-weight: 400;
+}
