@@ -88,9 +88,10 @@ img {
 
 .barra__logo {
     color: var(--blanco);
+    font-weight: 400;
 }
 .barra__bold {
-
+    font-weight: 700;
 }
 .navegacion-principal {
 
