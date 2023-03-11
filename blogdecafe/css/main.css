@@ -93,10 +93,14 @@ img {
 .barra__bold {
     font-weight: 700;
 }
-.navegacion-principal {
 
+@media (min-width: 768px) {
+    display: flex;
 }
 .navegacion-principal__enlace {
     color: var(--blanco);
-    margin-left: 1.5rem
+    margin-left: 1.5rem;
+    display: blocK;
+    text-align: center;
+    font-size: 1.8rem;
 }
