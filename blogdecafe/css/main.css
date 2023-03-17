@@ -98,10 +98,13 @@ img {
 .barra__bold {
     font-weight: 700;
 }
-
+.barra {
+    padding-top: 3rem;
+}
 @media (min-width: 768px) {
     .navegacion-principal {
         display: flex;
+        align-self: start;
     }
 }
 .navegacion-principal__enlace {
@@ -110,7 +113,18 @@ img {
     display: blocK;
     text-align: center;
     font-size: 1.8rem;
+    position: relative
 }
+.navegacion-principal__enlace::after{
+    content: "";
+    border-bottom: 1px solid red;
+    position: absolute;
+}
+
+.navegacion-principal__enlace:hover{
+    border-bottom: 1px solid red;
+}
+
 /* Contenido Principal */
 @media (min-width: 768px) {
     .contenido-principal {
