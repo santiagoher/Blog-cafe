@@ -63,6 +63,9 @@ img {
 .text-center {
     text-align: center;
 }
+.no-border {
+    border: none;
+}
 
 /* Header */
 .header {
@@ -215,4 +218,35 @@ img {
         grid-template-columns: 33.3% 66.6%;
         column-gap: 2rem;
     }
+}
+
+/* Contacto */
+.contacto-bg {
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario {
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.campo {
+
+}
+
+.campo__label {
+
+}
+
+.campo__field {
+
+}
+
+.campo__field--textarea {
+
 }
