@@ -184,3 +184,33 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+
+/* Sobre nosotros */
+@media screen and (min-width: 768px) {
+    .sobre-nosotros {
+        display: flex;
+        justify-content: space-between;
+        /* gap: 2rem; */
+    }
+
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto {
+        flex-basis: calc(50% - 1rem); /*Es como el width pero en flexbox*/
+    }
+}
+/* Cursos */
+.curso {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--claro);
+}
+.curso:last-of-type(3) {
+    padding: 0;
+    border: none;
+}
+@media screen and (min-width: 768px) {
+    .curso {
+        display: grid;
+        grid-template-columns: 33.3% 66.6%;
+        column-gap: 2rem;
+    }
+}
