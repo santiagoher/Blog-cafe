@@ -166,12 +166,14 @@ img {
     border: none;
     margin-bottom: 0;
 }
-.widget-cursos__label {
+.widget-cursos__label,
+.cursos__label {
     font-size: 1.8rem;
     font-weight: bold;
     font-family: var(--fuenteHeading);
 }
-.widget-cursos__info {
+.widget-cursos__info,
+.curso__info {
     font-weight: 400;
 }
 /* Footer */
