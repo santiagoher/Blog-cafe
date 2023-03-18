@@ -26,8 +26,7 @@ body {
 
 /* Globales */
 .contenedor {
-    max-width: 120rem;
-    width: 90%;
+    width: min(90%, 120rem); 
     margin: 0 auto;
 }
 
@@ -113,18 +112,10 @@ img {
     display: blocK;
     text-align: center;
     font-size: 1.8rem;
-    position: relative
-}
-.navegacion-principal__enlace::after{
-    content: "";
-    border-bottom: 1px solid red;
-    position: absolute;
-}
-
+}                      
 .navegacion-principal__enlace:hover{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid var(--blanco);
 }
-
 /* Contenido Principal */
 @media (min-width: 768px) {
     .contenido-principal {
