@@ -146,6 +146,8 @@ img {
     font-weight: 700;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    cursor: pointer;
+    border: none;
 }
 @media (min-width: 768px) {
     .boton {
@@ -236,17 +238,19 @@ img {
 }
 
 .campo {
-
+    display: flex;
+    margin-bottom: 2rem; 
 }
 
-.campo__label {
-
+.campo__label { 
+    flex: 0 0 7rem;
 }
 
 .campo__field {
-
+    flex: 1; 
+    border: 1px solid var(--claro);
 }
 
 .campo__field--textarea {
-
+    height: 40rem  ;
 }
